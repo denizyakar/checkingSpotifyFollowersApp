@@ -3,8 +3,8 @@ import requests
 
 app = Flask(__name__)
 
-CLIENT_ID = '84933dfc0cbd4f139e1495ca78de2794'  # Spotify Developer Dashboard'dan aldığın Client ID
-CLIENT_SECRET = 'b61a228556fc4ca6be6987e4424c07a8'  # Spotify Developer Dashboard'dan aldığın Client Secret
+CLIENT_ID = 'CLIENT ID BURAYA'  # Spotify Developer Dashboard'dan aldığın Client ID
+CLIENT_SECRET = 'CLIENT SECRET BURAYA'  # Spotify Developer Dashboard'dan aldığın Client Secret
 REDIRECT_URI = 'http://localhost:8888/callback'  # Spotify Developer Dashboard'da belirlediğin Redirect URI
 SCOPE = 'user-follow-read'
 
